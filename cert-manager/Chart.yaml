@@ -1,0 +1,11 @@
+apiVersion: v2
+name: cert-manager
+version: 2.1.0
+description: A customized chart for cert-manager
+maintainers:
+  - name: Sayak Mukhopadhyay
+    email: sayak@beezlabs.com
+dependencies:
+  - name: cert-manager
+    version: "v1.7.2"
+    repository: "https://charts.jetstack.io"

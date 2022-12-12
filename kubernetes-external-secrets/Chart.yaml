@@ -1,0 +1,11 @@
+apiVersion: v2
+name: kubernetes-external-secrets
+version: 2.0.0
+description: A customized chart for kubernetes-external-secrets
+maintainers:
+  - name: Sayak Mukhopadhyay
+    email: sayak@beezlabs.com
+dependencies:
+  - name: kubernetes-external-secrets
+    version: "8.5.5"
+    repository: "https://external-secrets.github.io/kubernetes-external-secrets/"

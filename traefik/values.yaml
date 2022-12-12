@@ -1,0 +1,11 @@
+traefik:
+  globalArguments: []
+  deployment:
+    replicas: 3
+  providers:
+    kubernetesIngress:
+      publishedService:
+        enabled: true
+  ingressClass:
+    enabled: true
+    fallbackApiVersion: "v1beta1"

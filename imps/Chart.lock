@@ -1,0 +1,6 @@
+dependencies:
+- name: imagepullsecrets
+  repository: https://kubernetes-charts.banzaicloud.com
+  version: 0.3.7
+digest: sha256:4269667fb2149814932eb22c810d935df4f2e81e023a02931c7bf952622ca6c9
+generated: "2022-05-19T17:40:58.2754954+05:30"

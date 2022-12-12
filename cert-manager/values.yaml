@@ -1,0 +1,8 @@
+acme:
+  email: certs@example.com
+clusterIssuer:
+  enabled: true
+  email: sayak@example.com
+  apiToken: <api-token>
+cert-manager:
+  installCRDs: true

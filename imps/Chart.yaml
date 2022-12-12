@@ -1,0 +1,11 @@
+apiVersion: v2
+name: imps
+version: 1.0.0
+description: A customized chart for imps
+maintainers:
+  - name: Sayak Mukhopadhyay
+    email: sayak@beezlabs.com
+dependencies:
+  - name: imagepullsecrets
+    version: "0.3.7"
+    repository: "https://kubernetes-charts.banzaicloud.com"

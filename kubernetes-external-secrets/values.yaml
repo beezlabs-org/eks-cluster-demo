@@ -1,0 +1,11 @@
+kubernetes-external-secrets:
+  envVarsFromSecret:
+    AZURE_TENANT_ID:
+      secretKeyRef: azure-credentials
+      key: tenantId
+    AZURE_CLIENT_ID:
+      secretKeyRef: azure-credentials
+      key: clientId
+    AZURE_CLIENT_SECRET:
+      secretKeyRef: azure-credentials
+      key: clientSecret
